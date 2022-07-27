@@ -4,8 +4,6 @@ import styled, { createGlobalStyle } from "styled-components";
 import DarkMode from "./Components/DarkMode.js";
 import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import { Paper } from "@material-ui/core";
-import { dark } from "@material-ui/core/styles/createPalette.js";
-import color from "./img/color.jpg";
 
 const GlobaStyle = createGlobalStyle`
   *{
