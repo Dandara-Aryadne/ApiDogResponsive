@@ -70,6 +70,9 @@ const Button = styled.button`
     position: absolute;
     width: 80%;
     height: 90%;
+    &:hover {
+      cursor: pointer;
+    }
   }
 `;
 
@@ -115,7 +118,6 @@ const H1 = styled.h1`
 export default function App() {
   const [doguinho, setDoguinho] = useState(false, []);
   const [darkMode, setDarkMode] = useState(false);
-  const [modal, SetModal] = useState(false);
 
   function Card() {
     axios.get("https://dog.ceo/api/breeds/image/random").then((responseDog) => {
