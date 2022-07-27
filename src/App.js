@@ -33,7 +33,7 @@ const Div = styled.div`
   margin-bottom: 20%;
   left: 32vw;
 
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  @media only screen and (min-width: 360px) and (max-width: 800px) {
     width: 50%;
     height: 20vh;
     left: 27.3vw;
@@ -50,7 +50,7 @@ const Nav = styled.div`
   height: 9vh;
   left: 20vw;
   top: 42vh;
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  @media only screen and (min-width: 360px) and (max-width: 800px) {
     width: 70%;
     height: 10vh;
     left: 34vw;
@@ -66,7 +66,7 @@ const Button = styled.button`
   color: white;
   border: none;
   box-shadow: 2px 4px 2px #95ecf3;
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  @media only screen and (min-width: 360px) and (max-width: 800px) {
     position: absolute;
     width: 80%;
     height: 90%;
@@ -83,7 +83,7 @@ const Section = styled.div`
   height: 55vh;
   right: 10vw;
   top: 11vh;
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  @media only screen and (min-width: 360px) and (max-width: 800px) {
     display: flex;
     margin-bottom: 25vh;
     margin-right: 40vw;
@@ -99,7 +99,7 @@ const Img = styled.img`
   width: 90%;
   height: 50vh;
   object-fit: fill;
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  @media only screen and (min-width: 360px) and (max-width: 800px) {
     box-shadow: 1px 0px 2px 5px #daf7a6;
     border-radius: 35px 35px 35px 35px;
     height: 35vh;
@@ -111,7 +111,7 @@ const H1 = styled.h1`
   color: #23accb;
   font-size: 10vw;
   font-family: "Rubik Moonrocks", cursive;
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  @media only screen and (min-width: 360px) and (max-width: 800px) {
   }
 `;
 
